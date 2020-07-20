@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinay Girl Boss</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+        body {
+            background-color: #F9F9F9;
+            font-family: 'Roboto', sans-serif;
+            color: #99cef6;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 768px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+        section {
+            display: grid;
+        }
+        h1 {
+            font-size: 4rem;
+        }
+        .logo {
+            margin: 0 auto;
+        }
+        .accent {
+            position: relative;
+        }
+        .accent img {
+            position: absolute;
+            top: -1rem;
+            height: 3.6rem;
+        }
+
+        @media screen and (max-width: 425px) {
+            .accent img {
+                position: absolute;
+                top: -1rem;
+                height: 2.3rem;
+            }
+            h1 {
+                text-align: center;
+                font-size: 2.3rem;
+            }
+        }
+        
+
+        @media screen and (max-width: 375px) {
+            
+            .accent img {
+                position: absolute;
+                top: -1rem;
+                height: 2rem;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            
+            .accent img {
+                position: absolute;
+                top: 0rem;
+                height: 2rem;
+                left: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <section>
+            <div class="accent">
+                <img src="img/PGB Accent.svg" alt="">
+            </div>
+            <div>
+                <h1>We're coming soon</h1>
+            </div>
+            <div class="logo">
+                <img src="img/PGB Logo.svg" alt="Pinay Girl Boss">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
